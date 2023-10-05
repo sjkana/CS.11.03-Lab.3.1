@@ -320,7 +320,7 @@ public class Main
     }
     public static boolean shape() throws InterruptedException {
         Thread.sleep(1000);
-        System.out.println("\nIt's time to shape your dough. The recipe says we should punch and knead the dough for 4 minutes in total.");
+        System.out.println("\nIt's time to shape your dough. The recipe says we should punch AND knead the dough for 4 minutes in total.");
         System.out.println("How long will you punch the dough for? (minutes)");
         Scanner dough = new Scanner(System.in);
         int punch = dough.nextInt();
@@ -350,7 +350,7 @@ public class Main
         boolean fs = true;
         if(input.equals("1"))
         {
-            System.out.println("Great job! You add pineapples to please the manager. His son loves pineapple pizza!");
+            System.out.println("Great job! You add pineapples to please the manager. His son LOVES pineapple pizza!");
             fs = true;
         }
         if(input.equals("2"))
