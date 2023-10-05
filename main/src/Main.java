@@ -1,11 +1,21 @@
 import java.util.Scanner;
 
+/*How to win the game! (Not get fired or die)
+1. Successfully finish day 1 by following steps that make sense
+2. Leave some leftover pineapple slices
+3. Stay in the pizzeria after work and find out about the evil son
+4. Leave the dark room before the son comes to get you
+5. Hide in the fridge and carry out your plan!
+ */
 
 public class Main
 {
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("It's your first day working as a chef in a pizzeria. \nYou lied on your resume, and you have no idea how to make pizzas. Try to earn a bit of money before you get fired.");
-        Thread.sleep(1000);
+
+        System.out.println("╭━━━┳━━━┳╮╱╱╭╮╱╭╮\n╰╮╭╮┃╭━╮┃╰╮╭╯┃╭╯┃\n╱┃┃┃┃┃╱┃┣╮╰╯╭╯╰╮┃\n╱┃┃┃┃╰━╯┃╰╮╭╯╱╱┃┃\n╭╯╰╯┃╭━╮┃╱┃┃╱╱╭╯╰╮\n╰━━━┻╯╱╰╯╱╰╯╱╱╰━━╯");
+        Thread.sleep(2000);
+        System.out.println("It's your first day working as a chef in a pizzeria. \nYou lied on your resume, and you have no idea how to make pizzas. Try to earn a bit of money before you get fired, and stay safe...");
+        Thread.sleep(2000);
         int resultOne = dayOne();
 
         if(resultOne >= 0)
@@ -44,6 +54,9 @@ public class Main
     }
 
     public static void dayTwoF() throws InterruptedException {
+        Thread.sleep(2000);
+        System.out.println("╭━━━┳━━━┳╮╱╱╭╮╭━━━╮\n╰╮╭╮┃╭━╮┃╰╮╭╯┃┃╭━╮┃\n╱┃┃┃┃┃╱┃┣╮╰╯╭╯╰╯╭╯┃\n╱┃┃┃┃╰━╯┃╰╮╭╯╱╭━╯╭╯\n╭╯╰╯┃╭━╮┃╱┃┃╱╱┃┃╰━╮\n╰━━━┻╯╱╰╯╱╰╯╱╱╰━━━╯");
+        Thread.sleep(3000);
         System.out.println("Last night, you dreamt of a plan to defeat the manager's son.");
         Thread.sleep(3000);
         System.out.println("You know he loves pineapples, so you'll arrive early at the pizzeria, and use the leftover pineapple slices as bait while you sneak up on him.");
@@ -62,6 +75,9 @@ public class Main
 
     }
     public static void dayTwoR(int slices) throws InterruptedException {
+
+        Thread.sleep(2000);
+        System.out.println("╭━━━┳━━━┳╮╱╱╭╮╭━━━╮\n╰╮╭╮┃╭━╮┃╰╮╭╯┃┃╭━╮┃\n╱┃┃┃┃┃╱┃┣╮╰╯╭╯╰╯╭╯┃\n╱┃┃┃┃╰━╯┃╰╮╭╯╱╭━╯╭╯\n╭╯╰╯┃╭━╮┃╱┃┃╱╱┃┃╰━╮\n╰━━━┻╯╱╰╯╱╰╯╱╱╰━━━╯");
 
         System.out.println("Last night, you dreamt of a plan to defeat the manager's son.");
         Thread.sleep(2000);
@@ -118,6 +134,8 @@ public class Main
 
     }
     public static void dayTwo() throws InterruptedException {
+        Thread.sleep(2000);
+        System.out.println("╭━━━┳━━━┳╮╱╱╭╮╭━━━╮\n╰╮╭╮┃╭━╮┃╰╮╭╯┃┃╭━╮┃\n╱┃┃┃┃┃╱┃┣╮╰╯╭╯╰╯╭╯┃\n╱┃┃┃┃╰━╯┃╰╮╭╯╱╭━╯╭╯\n╭╯╰╯┃╭━╮┃╱┃┃╱╱┃┃╰━╮\n╰━━━┻╯╱╰╯╱╰╯╱╱╰━━━╯");
         Thread.sleep(3000);
         System.out.println("Its day two of you working as a fake chef. You arrive at the pizzeria early, hoping to receive the manager's approval. But he cannot be found anywhere.");
         Thread.sleep(3000);
